@@ -1,0 +1,8 @@
+#Actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+    health:
+      show-details: always
